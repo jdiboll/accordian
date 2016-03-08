@@ -1,1 +1,32 @@
 /* CSS Entry Point */
+.app {
+	width: 700px;
+	height: 700px;
+	border: 1px solid #ccc;
+	padding: 4px;
+	display: block;
+}
+.slide1  {
+	height: 230px;
+}
+.slide2 {
+	height: 230px;
+}
+.slide3 {
+	height: 230px;
+}
+.banner {
+	height: 40px;
+	padding: 4px;
+	background-color: #ccc;
+	color: white;
+	font-size: 18px;
+}
+p {
+	padding-left: 16px;
+	margin: 0;
+}
+.text {
+	margin: auto;
+	padding-top: 4px;
+}
