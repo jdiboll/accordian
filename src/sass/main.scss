@@ -1,21 +1,48 @@
 /* CSS Entry Point */
 .app {
 	width: 700px;
-	height: 700px;
+	height: 400px;
 	border: 1px solid #ccc;
 	padding: 4px;
-	display: block;
+	position: relative;
+	overflow: hidden;
+	
 }
-.slide1  {
+.slide1top  {
 	height: 230px;
+	position: absolute;
 }
-.slide2 {
+
+.slide2top{
+	top: 50px;
 	height: 230px;
+	up: calc(100% - 48px);
+	down: calc(100% - 48px);
+	position: absolute;
 }
-.slide3 {
+
+.slide3top {
+	top: 98px;
 	height: 230px;
+	up: calc(100% - 96px);
+	down: calc(100% - 48px);
+	position: absolute;
 }
-.banner {
+.banner1 {
+	height: 40px;
+	padding: 4px;
+	background-color: #ccc;
+	color: white;
+	font-size: 18px;
+	}
+.banner2 {
+	height: 40px;
+	padding: 4px;
+	background-color: #ccc;
+	color: white;
+	font-size: 18px;
+}
+.banner3 {
 	height: 40px;
 	padding: 4px;
 	background-color: #ccc;
@@ -23,6 +50,8 @@
 	font-size: 18px;
 }
 p {
+	height: 0;
+	overflow: hidden;
 	padding-left: 16px;
 	margin: 0;
 }
