@@ -1,88 +1,33 @@
-/* CSS Entry Point */
-.app {
+.body {
+	border: 1px solid #513e0e;
 	width: 700px;
-	height: 400px;
-	border: 1px solid #ccc;
-	padding: 4px;
-	// position: relative;
-	// overflow: hidden;
+}
+.top {
+	border-bottom: 1px solid #513e0e;
+	&:last-child{
+		border-bottom: none; }
+
+	span{ 
+		background-color: #c7a769;
+		margin: 0;
+	}
 	
-}
-.slide1top  {
-	height: 230px;
-	// position: absolute;
-}
-
-.slide2top{
-	top: 50px;
-	height: 230px;
-	// up: calc(100% - 48px);
-	// down: calc(100% - 48px);
-	// position: absolute;
-	&.slide2bottom {
-		p {
-			max-height: 0;
-			padding: 0;
-		}
-		
+	p {
+		margin: 0;
+		transition: all 1s;
+		overflow: hidden;
+		max-height: 120px;
 	}
-}
 
-.slide3top {
-	top: 98px;
-	height: 230px;
-	// up: calc(100% - 96px);
-	// down: calc(100% - 48px);
-	// position: absolute;
-	&.slide3bottom {
+	&.bottom {
 		p {
 			max-height: 0;
 			padding: 0;
 		}
 	}
 }
-.banner1 {
-	height: 40px;
-	padding: 4px;
-	background-color: #ccc;
-	color: white;
-	font-size: 18px;
-	}
-.banner2 {
-	height: 40px;
-	padding: 4px;
-	 background-color: #ccc;
-	color: white;
-	font-size: 18px;
-}
-.banner3 {
-	height: 40px;
-	padding: 4px;
-	background-color: #ccc;
-	color: white;
-	font-size: 18px;
-}
-p {
-	max-height: 270px;
-	overflow: hidden;
-	padding-left: 16px;
-	margin: 0;
-	transition: all 1s;
-	// &.slide2bottom {
-		// p {
-			// max-height: 0;
-			// padding: 0;
-		// }
-	// }
-	// &.slide3bottom {
-		// p {
-			// max-height: 0;
-			// padding: 0;
-		// }
-	// }
-// }
+	
 
-.text {
-	margin: auto;
-	padding-top: 4px;
-}
+
+
+
