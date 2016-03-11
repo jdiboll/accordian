@@ -5,18 +5,19 @@
 .top {
 	border-bottom: 1px solid #513e0e;
 	&:last-child{
-		border-bottom: none; }
+		border-bottom: none; 
+	}
 
-	span{ 
+	h3{ 
 		background-color: #c7a769;
 		margin: 0;
 	}
 	
 	p {
-		margin: 0;
+		margin: 3px;
 		transition: all 1s;
 		overflow: hidden;
-		max-height: 120px;
+		max-height: 170px;
 	}
 
 	&.bottom {

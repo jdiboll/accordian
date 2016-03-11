@@ -2,11 +2,13 @@
 import $ from 'jquery';
 	
 
-$('span').on('click', function(event) {
+$('h3').on('click', function(event) {
 	$('.top').addClass('bottom');
 
-	var $span = $(span);
-	$span.parent().removeClass('bottom');
+	var h3 = event.currentTarget;
+
+	var $h3 = $(h3);
+	$h3.parent().removeClass('bottom');
 
 });
 
